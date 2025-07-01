@@ -1,0 +1,30 @@
+{
+  "name": "deploy",
+  "version": "0.1.0",
+  "bin": {
+    "deploy": "bin/deploy.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.145",
+    "@types/ncp": "^2.0.8",
+    "@types/node": "^20.16.10",
+    "aws-cdk": "^2.165.0",
+    "cdk-assets": "^2.155.20",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.6.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.165.0",
+    "cdk-nag": "^2.31.0",
+    "constructs": "^10.4.2",
+    "ncp": "^2.0.0",
+    "s3-spa-upload": "^2.1.5",
+    "source-map-support": "^0.5.21"
+  }
+}

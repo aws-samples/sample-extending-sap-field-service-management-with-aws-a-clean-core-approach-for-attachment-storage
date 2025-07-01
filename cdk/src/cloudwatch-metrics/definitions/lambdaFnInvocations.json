@@ -1,0 +1,38 @@
+{
+  "metrics": [
+    [
+      "AWS/Lambda",
+      "Invocations",
+      "FunctionName",
+      "<FUNCTION_NAME>"
+    ]
+  ],
+  "sparkline": true,
+  "view": "timeSeries",
+  "stacked": false,
+  "stat": "Sum",
+  "period": 300,
+  "setPeriodToTimeRange": false,
+  "trend": true,
+  "liveData": true,
+  "table": {
+    "summaryColumns": []
+  },
+  "yAxis": {
+    "left": {
+      "showUnits": false,
+      "label": "",
+      "min": 0
+    },
+    "right": {
+      "label": "",
+      "showUnits": false
+    }
+  },
+  "legend": {
+    "position": "bottom"
+  },
+  "start": "-PT168H",
+  "end": "P0D",
+  "theme": "dark"
+}

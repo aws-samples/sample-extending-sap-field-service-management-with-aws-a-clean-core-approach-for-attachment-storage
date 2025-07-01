@@ -1,0 +1,7 @@
+{
+  "name": "jwt-authorizer",
+  "version": "1.0.0",
+  "dependencies": {
+    "aws-jwt-verify": "^5.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Amazon S3 attachment backup",
+  "provider": "AWS Industries - Prototyping and Customer Engineering",
+  "description": "This extension allows you to view the status of attachment backups to Amazon Simple Storage Service (S3)",
+  "version": "0.1.0",
+  "icon": "https://raw.githubusercontent.com/SAP-samples/fsm-extension-sample/refactor/samples/login-with-token/frontend/icon.png",
+  "optimalHeight": 2000,
+  "useShellSDK": true,
+  "outletPositions": ["SHELL_HOME_SCREEN"],
+  "shellNavigation": {
+    "icon": "building",
+    "insideShell": true
+  }
+}
