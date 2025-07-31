@@ -16,11 +16,7 @@ import { FsmParameters } from "../lib/fsm-parameters";
 
 const app = new cdk.App();
 cdk.Aspects.of(app).add(new AwsSolutionsChecks());
-const stack = new cdk.Stack(app, "SapFsmAttachmentBackupStack", {
-  synthesizer: new cdk.CliCredentialsStackSynthesizer({
-    fileAssetsBucketName: "sap-fsm-extension-sample-${AWS::Region}",
-  }),
-});
+const stack = new cdk.Stack(app, "SapFsmAttachmentBackupStack", {});
 
 // Define CDK Parameters
 const fsmClientIdParam = new cdk.CfnParameter(stack, "SapFsmClientId", {
