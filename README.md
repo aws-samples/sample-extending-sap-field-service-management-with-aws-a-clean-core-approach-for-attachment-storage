@@ -32,10 +32,10 @@ Then for your account choose Clients, create a new client, configure it for the 
 
 It is suggested to create the AWS infrastructure using a **Quick Create Stack link** for your AWS region of choice:
 
-- [eu-central-1](https://console.aws.amazon.com/cloudformation/home#/stacks/quickcreate?stackName=MySapFsmAttachmentBackupStack&templateURL=https://cf-templates-736744502971-eu-central-1.s3.amazonaws.com/SapFsmAttachmentBackupStack.template.json)
-- [eu-west-1](https://console.aws.amazon.com/cloudformation/home#/stacks/quickcreate?stackName=MySapFsmAttachmentBackupStack&templateURL=https://cf-templates-736744502971-eu-west-1.s3.amazonaws.com/SapFsmAttachmentBackupStack.template.json)
-- [us-east-1](https://console.aws.amazon.com/cloudformation/home#/stacks/quickcreate?stackName=MySapFsmAttachmentBackupStack&templateURL=https://cf-templates-736744502971-us-east-1.s3.amazonaws.com/SapFsmAttachmentBackupStack.template.json)
-- [ap-southeast-2](https://console.aws.amazon.com/cloudformation/home#/stacks/quickcreate?stackName=MySapFsmAttachmentBackupStack&templateURL=https://cf-templates-736744502971-ap-southeast-2.s3.amazonaws.com/SapFsmAttachmentBackupStack.template.json)
+- [eu-central-1](https://eu-central-1.console.aws.amazon.com/cloudformation/home#/stacks/quickcreate?stackName=MySapFsmAttachmentBackupStack&templateURL=https://cf-templates-736744502971-eu-central-1.s3.amazonaws.com/SapFsmAttachmentBackupStack.template.json)
+- [eu-west-1](https:/eu-west-1.console.aws.amazon.com/cloudformation/home#/stacks/quickcreate?stackName=MySapFsmAttachmentBackupStack&templateURL=https://cf-templates-736744502971-eu-west-1.s3.amazonaws.com/SapFsmAttachmentBackupStack.template.json)
+- [us-east-1](https://us-east-1.console.aws.amazon.com/cloudformation/home#/stacks/quickcreate?stackName=MySapFsmAttachmentBackupStack&templateURL=https://cf-templates-736744502971-us-east-1.s3.amazonaws.com/SapFsmAttachmentBackupStack.template.json)
+- [ap-southeast-2](https://ap-southeast-2.console.aws.amazon.com/cloudformation/home#/stacks/quickcreate?stackName=MySapFsmAttachmentBackupStack&templateURL=https://cf-templates-736744502971-ap-southeast-2.s3.amazonaws.com/SapFsmAttachmentBackupStack.template.json)
 
 > Set the right CloudFormation parameters as needed. Especially, make sure to use _**your**_ SAP FSM Account ID and Company ID.
 
